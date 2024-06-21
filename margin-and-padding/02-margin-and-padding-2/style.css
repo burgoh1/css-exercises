@@ -7,21 +7,33 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px; /* add padding around to create space vertically from card and blue elements */
 }
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
+  margin-top: 0px; /* no need for top margin because of .card padding (keep padding and margin bottom the same for symetry */
+  margin-bottom: 8px;
+  font: size 16px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 10px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  display: block;
+  margin: 0 auto;
 }
